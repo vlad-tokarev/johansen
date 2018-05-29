@@ -1,7 +1,7 @@
 import numpy as np
 from statsmodels.tsa.tsatools import lagmat
 
-import critical_values
+from johansen import critical_values
 
 
 class Johansen(object):
